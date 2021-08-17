@@ -9,6 +9,7 @@ library(ggdendro)
 library(ggtree)
 library(dendextend)
 library(circlize)
+library(randomcoloR)
 
 ## loading GISAID sample information
 gisaid_samples <- read.delim(file = "hcov_global.tsv", sep = "\t", stringsAsFactors = F)
